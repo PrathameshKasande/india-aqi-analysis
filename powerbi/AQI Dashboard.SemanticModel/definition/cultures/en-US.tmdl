@@ -1,0 +1,3065 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "cleaned_aqi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cleaned aqi": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cleaned_aqi": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "cleaned_aqi.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cleaned_aqi.date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "VariationSource": "date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cleaned_aqi.date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "VariationSource": "date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cleaned_aqi.date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "VariationSource": "date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cleaned_aqi.date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "VariationSource": "date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cleaned_aqi.date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "VariationSource": "date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cleaned_aqi.state": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "state"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "state": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "state or province": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "country": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "cleaned_aqi.area": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "area"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "area": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "locale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "neighbourhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "continent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "field": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "neighborhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "space": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "cleaned_aqi.number_of_monitoring_stations": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "number_of_monitoring_stations"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "number of monitoring stations": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "number of monitoring station": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "number_of_monitoring_stations": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "quantity of monitoring station": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.786
+			          }
+			        },
+			        {
+			          "amount of monitoring station": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "count of monitoring station": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "no of monitoring station": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        }
+			      ]
+			    },
+			    "cleaned_aqi.prominent_pollutant": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "prominent_pollutants"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prominent pollutant": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "prominent_pollutants": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "pollutant": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "cleaned_aqi.aqi_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "aqi_value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "aqi value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aqi_value": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "aqi assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "aqi worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "aqi price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "aqi cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "aqi charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "aqi rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "aqi importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "aqi significance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "aqi usefulness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "aqi consequence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "cleaned_aqi.air_quality_status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "air_quality_status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "air quality status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "air_quality_status": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "status": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "quality status": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "air quality category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "air quality importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "air quality prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "air quality prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "quality category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "quality importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "quality prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "quality prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "air quality condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "air quality class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "cleaned_aqi.unit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "unit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "module": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "entity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "component": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "constituent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "cleaned_aqi.avg_AQI": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "Avg_AQI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg AQI": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Avg_AQI": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "average aqi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "cleaned_aqi.total_readings": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "Total_Readings"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total readings": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Total_Readings": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "readings": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate reading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall reading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total interpretation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total analysis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total appraisal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total impression": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total comprehension": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total conception": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total imagination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "cleaned_aqi.max_AQI": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "Max_AQI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "max AQI": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Max_AQI": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "AQI": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "maximum aqi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "cleaned_aqi.pct_good_air": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "Pct_Good_Air"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pct good air": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Pct_Good_Air": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "pct good appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "pct good manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "pct good impression": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "pct good aura": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "pct good look": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "pct good tone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "pct good feeling": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "pct good quality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "pct good flavor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "pct good atmosphere": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.458
+			          }
+			        },
+			        {
+			          "Good Air Quality (%)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "cleaned_aqi.severe_days_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "Severe_Days_Count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "severe days count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Severe_Days_Count": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "days count": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "severe day amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "day amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "cleaned_aqi.selected_state_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "Selected_State_Label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "selected state label": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Selected_State_Label": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "label": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "state label": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "selected state sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "state sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "selected state tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "selected state decal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "state tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "state decal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "decal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "selected location label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ]
+			    },
+			    "cleaned_aqi.min_AQI": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "Min_AQI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "min AQI": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Min_AQI": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "AQI": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "minimum aqi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "cleaned_aqi.AQI_status_color": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "AQI_Status_Color"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "AQI status color": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AQI_Status_Color": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "color": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "status color": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aqi category color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "aqi importance color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "aqi prestige color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "aqi prominence color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "category color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "importance color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "prestige color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "prominence color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "aqi condition color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "aqi class color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "cleaned_aqi.previous_month_AQI": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "Previous_Month_AQI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "previous month AQI": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Previous_Month_AQI": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "AQI": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "month AQI": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "previous mth aqi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "mth aqi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "cleaned_aqi.mo_M_AQI_change": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "MoM_AQI_Change"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mo M AQI change": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MoM_AQI_Change": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "change": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "AQI change": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "M AQI change": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "mo m aqi alteration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "mo m aqi modification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "mo m aqi variation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "mo m aqi transformation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "mo m aqi revolution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "mo m aqi conversion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "mo m aqi adjustment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "mo m aqi amendment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "m aqi alteration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "m aqi modification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        }
+			      ]
+			    },
+			    "cleaned_aqi.avg_PM25": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "Avg_PM25"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg PM25": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Avg_PM25": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "average pm25": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "cleaned_aqi.avg_PM10": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "Avg_PM10"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg PM10": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Avg_PM10": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "average pm10": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Avg. PM10 (µg/m³ )": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "cleaned_aqi.avg_NO2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "Avg_NO2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg NO2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Avg_NO2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "average no2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Avg. NO₂ (µg/m³ )": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "cleaned_aqi.avg_CO": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cleaned_aqi",
+			          "ConceptualProperty": "Avg_CO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg CO": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Avg_CO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "average co": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Avg. CO (mg/m³ )": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "cleaned_aqi_date_date_hierarchy_has_cleaned_aqi_date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.date.date_hierarchy"
+			          }
+			        },
+			        "cleaned_aqi.date.day": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_days"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_date_date_hierarchy_has_cleaned_aqi_date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.date.date_hierarchy"
+			          }
+			        },
+			        "cleaned_aqi.date.month": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_months"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_date_date_hierarchy_has_cleaned_aqi_date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.date.date_hierarchy"
+			          }
+			        },
+			        "cleaned_aqi.date.quarter": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_quarters"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_date_date_hierarchy_has_cleaned_aqi_date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.date.date_hierarchy"
+			          }
+			        },
+			        "cleaned_aqi.date.year": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_years"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi.date": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.date"
+			          }
+			        },
+			        "cleaned_aqi.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi.date"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dates_have_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_avg_CO": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.avg_CO": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.avg_CO"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.avg_CO"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_avg_CO"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_avg_NO2": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.avg_NO2": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.avg_NO2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.avg_NO2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_avg_NO2"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_avg_PM10": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.avg_PM10": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.avg_PM10"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.avg_PM10"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_avg_PM10"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_avg_PM25": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.avg_PM25": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.avg_PM25"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.avg_PM25"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_avg_PM25"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_mo_M_AQI_change": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.mo_M_AQI_change": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.mo_M_AQI_change"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.mo_M_AQI_change"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_mo_M_AQI_change"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_previous_month_AQI": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.previous_month_AQI": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.previous_month_AQI"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.previous_month_AQI"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_previous_month_AQI"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_AQI_status_color": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.AQI_status_color": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.AQI_status_color"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.AQI_status_color"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_AQI_status_color"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_min_AQI": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.min_AQI": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.min_AQI"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.min_AQI"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_min_AQI"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_selected_state_label": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.selected_state_label": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.selected_state_label"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.selected_state_label"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_selected_state_label"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_severe_days_count": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.severe_days_count": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.severe_days_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.severe_days_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_severe_days_count"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_pct_good_air": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.pct_good_air": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.pct_good_air"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.pct_good_air"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_pct_good_air"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_max_AQI": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.max_AQI": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.max_AQI"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.max_AQI"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_max_AQI"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_total_readings": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.total_readings": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.total_readings"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.total_readings"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_total_readings"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_avg_AQI": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.avg_AQI": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.avg_AQI"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.avg_AQI"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_avg_AQI"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_unit": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.unit": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.unit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.unit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_units"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_air_quality_status": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.air_quality_status": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.air_quality_status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.air_quality_status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_air_quality_statuses"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_aqi_value": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.aqi_value": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.aqi_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.aqi_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_aqi_values"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_prominent_pollutant": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.prominent_pollutant": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.prominent_pollutant"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.prominent_pollutant"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_prominent_pollutants"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_number_of_monitoring_stations": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.number_of_monitoring_stations": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.number_of_monitoring_stations"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.number_of_monitoring_stations"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_number_of_monitoring_stations"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_area": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.area": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.area"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.area"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_areas"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_state": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.state": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.state"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_states"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.date": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Object": {
+			              "Role": "cleaned_aqi.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_have_dates"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_in_selected_state_label": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.selected_state_label": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.selected_state_label"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "cleaned_aqi.selected_state_label"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "cleaned_aqi.selected_state_label"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_are_in_selected_state_label"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_in_area": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.area": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.area"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "cleaned_aqi.area"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "cleaned_aqi.area"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_are_in_areas"
+			        }
+			      ]
+			    },
+			    "cleaned_aqi_in_state": {
+			      "Binding": {
+			        "ConceptualEntity": "cleaned_aqi"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cleaned_aqi": {
+			          "Target": {
+			            "Entity": "cleaned_aqi"
+			          }
+			        },
+			        "cleaned_aqi.state": {
+			          "Target": {
+			            "Entity": "cleaned_aqi.state"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "cleaned_aqi.state"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "cleaned_aqi"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "cleaned_aqi.state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cleaned_aqis_are_in_states"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

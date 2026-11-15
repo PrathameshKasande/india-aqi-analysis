@@ -1,0 +1,21 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["cleaned_aqi"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table cleaned_aqi
+ref table DateTableTemplate_9bb42f94-b5be-4169-9ab9-33f090870cb6
+ref table LocalDateTable_073ccd81-c1e4-4af3-898b-3278e3d514b0
+
+ref cultureInfo en-US
+

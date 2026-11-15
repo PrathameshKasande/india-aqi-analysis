@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "AQI Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "199f3fd6-ab35-43f5-8e0f-8dcaaef836ff"
+  }
+}

@@ -1,0 +1,15 @@
+# India AQI Analysis Project Configuration
+paths:
+  raw_data: "../data/raw/aqi.csv"
+  processed_data: "../data/processed/cleaned_aqi.csv"
+  reports_dir: "../reports"
+
+cleaning:
+  date_column: "date"
+  state_column: "state"
+  area_column: "area"
+  target_column: "aqi_value"
+
+thresholds:
+  aqi_severe_limit: 400
+  aqi_poor_limit: 300

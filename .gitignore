@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+.pytest_cache/
+
+# Power BI / Excel backups
+*.bak
+~$*
+
+# OS Files
+.DS_Store
+Thumbs.db

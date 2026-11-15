@@ -1,0 +1,187 @@
+table cleaned_aqi
+	lineageTag: 950f9182-1405-460c-b1ed-6cc155769b88
+
+	measure Avg_AQI = AVERAGE(cleaned_aqi[aqi_value])
+		formatString: 0.0
+		lineageTag: 4eecf94d-74ef-4a49-99a7-625b1f820caf
+
+	measure Total_Readings = COUNT(cleaned_aqi[aqi_value])
+		formatString: 0
+		lineageTag: 8f1b4d65-41c5-43c8-bd4d-824d87eeb867
+
+	measure Max_AQI = MAX(cleaned_aqi[aqi_value])
+		formatString: 0
+		lineageTag: 8bf1de4d-8120-4a78-a162-15b0e64c101a
+
+	measure Pct_Good_Air = ```
+			
+			DIVIDE(
+			    CALCULATE(COUNT(cleaned_aqi[aqi_value]), cleaned_aqi[air_quality_status] = "Good"),
+			    COUNT(cleaned_aqi[aqi_value])
+			) 
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 9d96d845-d595-401c-9f45-c3d18760b6b6
+
+	measure Severe_Days_Count =
+			
+			CALCULATE(
+			    COUNT(cleaned_aqi[aqi_value]),
+			    cleaned_aqi[aqi_value] > 400
+			)
+		formatString: 0
+		lineageTag: c02a8c7b-5d22-40e0-bcbd-567d29a709de
+
+	measure Selected_State_Label =
+			
+			IF(
+			    HASONEVALUE(cleaned_aqi[state]),
+			    SELECTEDVALUE(cleaned_aqi[state]) & " - Air Quality Overview",
+			    "All India - National Air Quality Overview"
+			)
+		lineageTag: 71ec4e4d-285d-4746-bd31-15237932dfb6
+
+	measure Min_AQI = MIN(cleaned_aqi[aqi_value])
+		formatString: 0
+		lineageTag: 07fa1973-2ea2-403b-8872-60aed1cbe1ff
+
+	measure AQI_Status_Color =
+			
+			SWITCH(
+			TRUE(),
+			[Avg_AQI] <= 50, "#22c55e",  -- Good (Green)
+			[Avg_AQI] <= 100, "#eab308", -- Satisfactory (Yellow)
+			[Avg_AQI] <= 200, "#f97316", -- Moderate (Orange)
+			[Avg_AQI] <= 300, "#ef4444", -- Poor (Red)
+			"#7f1d1d"                    -- Severe (Dark Red)
+			)
+		lineageTag: d6c5fc7c-0b2a-49cc-9588-0ceef8712bf6
+
+	measure Previous_Month_AQI = ```
+			
+			CALCULATE(
+			[Avg_AQI],
+			DATEADD(cleaned_aqi[date], -1, MONTH)
+			)
+			
+			
+			```
+		lineageTag: a571fa4b-038c-466d-8d59-5859de9ea66c
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure MoM_AQI_Change = [Avg_AQI] - [Previous_Month_AQI]
+		lineageTag: 684f2bcf-5c77-4094-98b4-5d524d45a359
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Avg_PM10 = CALCULATE(AVERAGE('cleaned_aqi'[aqi_value]), CONTAINSSTRING('cleaned_aqi'[prominent_pollutants], "PM10"))
+		lineageTag: ff2089e1-ad7e-41c5-9e96-a1697b30d291
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Avg_NO2 = CALCULATE(AVERAGE('cleaned_aqi'[aqi_value]), CONTAINSSTRING('cleaned_aqi'[prominent_pollutants], "NO2"))
+		lineageTag: bd660f78-290c-404e-8fa4-9b11f2898ad6
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Avg_CO = CALCULATE(AVERAGE('cleaned_aqi'[aqi_value]), CONTAINSSTRING('cleaned_aqi'[prominent_pollutants], "CO"))
+		lineageTag: 8ab4dbe9-2067-48ae-8905-4e52b62e654b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 484985eb-46f7-4230-8de2-2c5cc341054b
+		summarizeBy: none
+		sourceColumn: date
+
+		variation Variation
+			isDefault
+			relationship: aebfb619-1e99-4fd2-8cc0-2e147391aa43
+			defaultHierarchy: LocalDateTable_073ccd81-c1e4-4af3-898b-3278e3d514b0.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column state
+		dataType: string
+		lineageTag: d8445ab4-abc7-485d-a862-6214676d06d8
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: state
+
+		annotation SummarizationSetBy = Automatic
+
+	column area
+		dataType: string
+		lineageTag: 971eda01-d82d-4ea9-b7dd-380229e3bf7a
+		summarizeBy: none
+		sourceColumn: area
+
+		annotation SummarizationSetBy = Automatic
+
+	column number_of_monitoring_stations
+		dataType: int64
+		formatString: 0
+		lineageTag: b4e76ca3-8161-4201-b71b-05010144c8ad
+		summarizeBy: sum
+		sourceColumn: number_of_monitoring_stations
+
+		annotation SummarizationSetBy = Automatic
+
+	column prominent_pollutants
+		dataType: string
+		lineageTag: ba3960cc-9ff4-42e6-846c-5127e9b7e4b6
+		summarizeBy: none
+		sourceColumn: prominent_pollutants
+
+		annotation SummarizationSetBy = Automatic
+
+	column aqi_value
+		dataType: int64
+		formatString: 0
+		lineageTag: d3543a3b-8450-4694-b8e1-4f32806280da
+		summarizeBy: sum
+		sourceColumn: aqi_value
+
+		annotation SummarizationSetBy = Automatic
+
+	column air_quality_status
+		dataType: string
+		lineageTag: 9a20bf16-e490-4f8e-a995-1694ecd12810
+		summarizeBy: none
+		sourceColumn: air_quality_status
+
+		annotation SummarizationSetBy = Automatic
+
+	column unit
+		dataType: string
+		lineageTag: 6d15569c-5e3b-4253-b5d2-2a9b615f8d6b
+		summarizeBy: none
+		sourceColumn: unit
+
+		annotation SummarizationSetBy = Automatic
+
+	column Avg_PM25 = CALCULATE(AVERAGE('cleaned_aqi'[aqi_value]), CONTAINSSTRING('cleaned_aqi'[prominent_pollutants], "PM2.5"))
+		lineageTag: e0448834-bbd2-4a45-acc5-2a078023ce83
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition cleaned_aqi = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("C:\Users\prath\Desktop\india-aqi-analysis\data\processed\cleaned_aqi.csv"), [Delimiter = ",", Columns = 8, Encoding = 65001]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"date", type date}, {"state", type text}, {"area", type text}, {"number_of_monitoring_stations", Int64.Type}, {"prominent_pollutants", type text}, {"aqi_value", Int64.Type}, {"air_quality_status", type text}, {"unit", type text}}, "en-US")
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table
+

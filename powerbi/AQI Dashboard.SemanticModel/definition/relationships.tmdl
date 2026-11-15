@@ -1,0 +1,5 @@
+relationship aebfb619-1e99-4fd2-8cc0-2e147391aa43
+	joinOnDateBehavior: datePartOnly
+	fromColumn: cleaned_aqi.date
+	toColumn: LocalDateTable_073ccd81-c1e4-4af3-898b-3278e3d514b0.Date
+

@@ -1,0 +1,53 @@
+-- =========================================================================
+-- INDIA AIR QUALITY INDEX (AQI) - COMPREHENSIVE POWER BI DAX MEASURES
+-- =========================================================================
+
+-- 1. Core Summary Metrics (KPI Cards)
+Avg_AQI = AVERAGE(cleaned_aqi[aqi_value])
+
+Max_AQI = MAX(cleaned_aqi[aqi_value])
+
+Min_AQI = MIN(cleaned_aqi[aqi_value])
+
+Total_Readings = COUNT(cleaned_aqi[aqi_value])
+
+-- 2. Advanced Analytical Measures
+Pct_Good_Air =
+DIVIDE(
+CALCULATE(COUNT(cleaned_aqi[aqi_value]), cleaned_aqi[air_quality_status] = "Good"),
+COUNT(cleaned_aqi[aqi_value])
+) * 100
+
+Severe_Days_Count =
+CALCULATE(
+COUNT(cleaned_aqi[aqi_value]),
+cleaned_aqi[aqi_value] > 400
+)
+
+-- 3. Dynamic Interactive Titles & Labels
+Selected_State_Label =
+IF(
+HASONEVALUE(cleaned_aqi[state]),
+SELECTEDVALUE(cleaned_aqi[state]) & " - Air Quality Overview",
+"All India - National Air Quality Overview"
+)
+
+-- 4. Conditional Formatting & Dynamic KPI Colors
+AQI_Status_Color =
+SWITCH(
+TRUE(),
+[Avg_AQI] <= 50, "#22c55e",  -- Good (Green)
+[Avg_AQI] <= 100, "#eab308", -- Satisfactory (Yellow)
+[Avg_AQI] <= 200, "#f97316", -- Moderate (Orange)
+[Avg_AQI] <= 300, "#ef4444", -- Poor (Red)
+"#7f1d1d"                    -- Severe (Dark Red)
+)
+
+-- 5. Time Intelligence (Month-over-Month Trends)
+Previous_Month_AQI =
+CALCULATE(
+[Avg_AQI],
+DATEADD(cleaned_aqi[date], -1, MONTH)
+)
+
+MoM_AQI_Change = [Avg_AQI] - [Previous_Month_AQI]
